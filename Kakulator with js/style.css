@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #171717, #1e1c1c);
+  font-family: "Lexend Peta", sans-serif;
+}
+
+.calculator {
+  border: solid #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 50px  #ffffff; */
+  background: linear-gradient(360deg, #363636, #000000);
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 10px 10px;
+  margin: 10px 1px;
+  background: transparent;
+  border-bottom: #ffffff solid;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: right;
+}
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: transparent;
+  border: solid #fff;
+  box-shadow: 0px 0px 10px #ffffff;
+  color: #ababab;
+  cursor: pointer;
+}
+
+.content {
+  border-radius: 40%;
+  background-color: #000000;
+}
+
+.content:hover {
+  scale: 105%;
+}
+
+.content-answer {
+  border-radius: 20%;
+  background-color: #fff;
+  color: #000000;
+  width: 97px;
+}
+
+.content-answer:hover {
+  box-shadow: #ffffff 0 0 50px;
+  transition: 0.1s;
+  scale: 110%;
+}
+
+.content-action {
+  border-radius: 20%;
+  background-color: #fff;
+  color: #000000;
+  width: 85px;
+}
+
+.content-action:hover {
+  box-shadow: #ffffff 0 0 20px;
+  transition: 0.1s;
+}
+
+/* .a7, .a8, .a9, .b4, .b5, .b6, .c1, .c2, .c3 {
+    background-color: #ffffff
+}  */
+
+.a7:hover {
+  background-color: #ff0000;
+  color: #fff;
+  box-shadow: 0 0 50px #ff0000;
+  transition: 0.1s;
+}
+
+.a8:hover {
+  background-color: #00ff22;
+  color: #fff;
+  box-shadow: 0 0 50px #2bff00;
+  transition: 0.1s;
+}
+
+.a9:hover {
+  background-color: #0015ff;
+  color: #fff;
+  box-shadow: 0 0 50px #1100ff;
+  transition: s;
+}
+
+.b4:hover {
+  background-color: #ff5900;
+  color: #fff;
+  box-shadow: 0 0 50px #ff5900;
+  transition: 0.1s;
+}
+
+.b5:hover {
+  background-color: #00ff66;
+  color: #fff;
+  box-shadow: 0 0 50px #00ff66dd;
+  transition: 0.1s;
+}
+
+.b6:hover {
+  background-color: #0099ff;
+  color: #fff;
+  box-shadow: 0 0 50px #0099ff;
+  transition: 0.1s;
+}
+
+.c1:hover {
+  background-color: #ffd500;
+  color: #fff;
+  box-shadow: 0 0 50px #ffea00;
+  transition: 0.1s;
+}
+
+.c2:hover {
+  background-color: #00ffdddd;
+  color: #fff;
+  box-shadow: 0 0 50px #00ffc8dd;
+  transition: 0.1s;
+}
+
+.c3:hover {
+  background-color: #00eeff;
+  color: #fff;
+  box-shadow: 0 0 50px #00eeff;
+  transition: 0.1s;
+}
+
+.d0:hover {
+  background-color: #cc00ff;
+  color: #fff;
+  box-shadow: 0 0 50px #b300ff;
+  transition: 0.1s;
+}
+
+.d1:hover {
+  background-color: #9000ff;
+  color: #fff;
+  box-shadow: 0 0 50px #9000ff;
+  transition: 0.1s;
+}
+
+.d2:hover {
+  background-color: #ff00fb;
+  color: #fff;
+  box-shadow: 0 0 50px #ff00fb;
+  transition: 0.1s;
+}

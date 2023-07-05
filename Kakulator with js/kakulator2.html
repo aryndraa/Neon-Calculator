@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" placeholder="0" id="inputBox" id="password" readonly />
+      <div>
+        <button class="ac">AC</button>
+        <button class="del">DEL</button>
+        <button class="content-answer" onclick="checkPassword()">=</button>
+      </div>
+      <div>
+        <button class="a7" onclick="addToPassword(7)">7</button>
+        <button class="a8" onclick="addToPassword(8)">8</button>
+        <button class="a9" onclick="addToPassword(9)">9</button>
+        <button class="content1">/</button>
+      </div>
+      <div>
+        <button class="b4" onclick="addToPassword(4)">4</button>
+        <button class="b5" onclick="addToPassword(5)">5</button>
+        <button class="b6" onclick="addToPassword(6)">6</button>
+        <button class="content2">*</button>
+      </div>
+      <div>
+        <button class="c1" onclick="addToPassword(1)">1</button>
+        <button class="c2" onclick="addToPassword(2)">2</button>
+        <button class="c3" onclick="addToPassword(3)">3</button>
+        <button class="content3">-</button>
+      </div>
+      <div>
+        <button class="d1">00</button>
+        <button class="d0" onclick="addToPassword(0)">0</button>
+        <button class="d2">.</button>
+        <button class="content4">+</button>
+      </div>
+    </div>
+
+    <script src="system2.js"></script>
+  </body>
+</html>
