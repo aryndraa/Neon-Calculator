@@ -29,12 +29,8 @@ function addToPassword(number) {
 }
 
 function checkPassword() {
-  if (password === "01010") {
+  if (password === "10101") {
     // Ganti "123456" dengan sandi yang Anda inginkan
-    window.location.href = "kakulator.html";
-  } else {
-    alert("Sandi salah. Coba lagi.");
-    password = "";
-    document.getElementById("password").value = "";
+    window.location.href = "CalculatorWhite.html";
   }
 }

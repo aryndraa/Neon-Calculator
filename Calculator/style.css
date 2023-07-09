@@ -169,3 +169,27 @@ button {
   box-shadow: 0 0 50px #ff00fb;
   transition: 0.1s;
 }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 68%;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  button {
+    width: 49px;
+    height: 49px;
+    margin: px;
+  }
+
+  .content-action {
+    width: 70px;
+  }
+
+  .content-answer {
+    width: 80px;
+  }
+}
